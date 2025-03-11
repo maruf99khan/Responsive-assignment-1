@@ -1,0 +1,163 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav {
+  width: 100vw;
+  height: 1322px;
+  flex-shrink: 0;
+  background: rgba(255, 144, 14, 0.1);
+}
+
+.head {
+  width: auto;
+  height: 1322px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+}
+
+#g3 {
+  color: var(--Dark-01, #131313);
+  text-align: start;
+  font-family: "Work Sans";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 100%;
+  margin-top: 40px;
+}
+
+ul,
+li {
+  display: flex;
+  justify-content: center;
+  color: var(--Dark-02, #424242);
+  align-items: center;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+  margin: 20px 20px;
+}
+
+.brand {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand h2 {
+  color: var(--Dark-01, #131313);
+  font-family: "Work Sans";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  width: 862px;
+  margin-top: 20px;
+}
+
+.brand p {
+  color: var(--Dark-03, #727272);
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  width: 862px;
+}
+
+.brand p {
+  width: 868px;
+  color: var(--Dark-03, #727272);
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin: 10px;
+}
+
+.brand button {
+  width: 180px;
+  height: 64px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 8px;
+  background: #ff900e;
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 20px;
+}
+
+#banner{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#banner img{
+    height: auto;
+    width: 70vw;
+}
+
+
+@media screen and (max-width: 576px) {
+  .head {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+  }
+
+  #g3{
+    margin: 30px;
+    margin-bottom: 0px;
+  }
+
+  ul{
+    margin: 20px;
+  }
+
+  li{
+    margin: 20px;
+  }
+
+  .brand h2{
+    margin-top: 20px;
+    width: auto;
+    margin: 0px 30px;
+  }
+
+  .brand p{
+    width: auto;
+    margin: 0px 20px;
+  }
+
+#banner{
+    margin: 20px;
+}
+  #banner img{
+    width: 100%;
+    height: auto;
+  }
+
+
+
+
+}
